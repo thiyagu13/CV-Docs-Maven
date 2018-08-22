@@ -12,7 +12,7 @@
 			<class name="com.eDocs.SanityTesting.UniversalSettings" />
 		</classes>
 	</test> 
-<!-- 
+ 
   <test name="DMS">
 		<classes>
 			<class name="com.eDocs.DMS.DmsCreate" />
@@ -51,7 +51,7 @@
 		</classes>
 	</test>  -->
 
-	<!--  <test name="Equipment Train">
+	  <test name="Equipment Train">
 		<classes>
 			<class name="com.eDocs.EquipmentTrain.EquipmentTrainName" />
 			<class name="com.eDocs.EquipmentTrain.EquipmentTrainSelectEquipment" />
@@ -116,7 +116,7 @@
 
 
 
- -->
+ 
 
 
 
