@@ -65,6 +65,12 @@
   		<artifactId>poi-ooxml</artifactId>
   		<version>3.17</version>
   	</dependency>
+  	
+  	<dependency>
+  		<groupId>org.apache.poi</groupId>
+  		<artifactId>poi-ooxml-schemas</artifactId>
+  		<version>3.17</version>
+  	</dependency>
   	<dependency>
   		<groupId>net.sourceforge.jexcelapi</groupId>
   		<artifactId>jxl</artifactId>
@@ -91,7 +97,6 @@
   		<artifactId>commons-lang3</artifactId>
   		<version>3.8</version>
   	</dependency>
-
   	<dependency>
   		<groupId>log4j</groupId>
   		<artifactId>log4j</artifactId>
@@ -113,6 +118,12 @@
   		<version>2.22.0</version>
   	</dependency>
 
+
+  	<dependency>
+  		<groupId>org.apache.poi</groupId>
+  		<artifactId>poi-scratchpad</artifactId>
+  		<version>3.17</version>
+  	</dependency>
   </dependencies>
   
 </project>
