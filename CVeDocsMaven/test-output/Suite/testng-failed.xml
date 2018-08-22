@@ -9,13 +9,8 @@
     <classes>
       <class name="com.eDocs.SanityTesting.UniversalSettings">
         <methods>
-          <include name="GeneralSettings"/>
           <include name="setUp"/>
           <include name="ResidueLimitSAVE"/>
-          <include name="SampleLocation"/>
-          <include name="productgrouping"/>
-          <include name="SiteMap"/>
-          <include name="microbialLimit"/>
         </methods>
       </class> <!-- com.eDocs.SanityTesting.UniversalSettings -->
     </classes>
