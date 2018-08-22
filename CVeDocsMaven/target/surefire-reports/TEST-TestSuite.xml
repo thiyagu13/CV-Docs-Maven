@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="50.653" tests="7" errors="0" skipped="0" failures="4">
+<testsuite name="TestSuite" time="64.721" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_05\jre\bin"/>
     <property name="java.vm.version" value="25.5-b02"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Maven CV Docs\CVeDocsMaven"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Easy solutions\git\CV-Docs Maven\CVeDocsMaven"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Maven CV Docs\CVeDocsMaven"/>
+    <property name="user.dir" value="C:\Users\Easy solutions\git\CV-Docs Maven\CVeDocsMaven"/>
     <property name="java.runtime.version" value="1.8.0_05-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_05\jre\lib\endorsed"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="C:\Users\Easy solutions\git\CV-Docs\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9171306340025350693.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Easy solutions\git\CV-Docs\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf311693472081825267.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_05\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_05/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_05/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_05/bin/../jre/lib/amd64;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Windows\System32\wbem;C:\Windows\System32\wbem\WMIC.exe;C:\Program Files\Amazon\AWSCLI\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\System32;C:\Program Files\PuTTY\;&quot;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Windows\System32\wbem;C:\Windows\System32\wbem\WMIC.exe;C:\Program Files\Amazon\AWSCLI\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\System32;C:\Program Files\PuTTY\;&quot;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Windows\System32\wbem;C:\Windows\System32\wbem\WMIC.exe;C:\Program Files\Amazon\AWSCLI\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\System32;C:\Program Files\PuTTY\;&quot;C:\WINDOWS\System32;C:\Program Files\Java\jdk1.8.0_05\bin;C:\Program Files (x86)\Tomcat 8.5\bin;C:\Program Files\Java\jdk1.8.0_05\\bin&quot;;;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_05\bin;C:\Program Files (x86)\Tomcat 8.5\bin;C:\Program Files\Java\jdk1.8.0_05\\bin&quot;;;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_05\bin;C:\Program Files (x86)\Tomcat 8.5\bin;C:\Program Files\Java\jdk1.8.0_05\\bin&quot;;;C:\WINDOWS\System32\OpenSSH\;C:\Users\Easy solutions\AppData\Local\Microsoft\WindowsApps;;D:\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_05\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -52,7 +52,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_05\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_05\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_05\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\Maven CV Docs\CVeDocsMaven\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\Easy solutions\git\CV-Docs Maven\CVeDocsMaven\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -60,152 +60,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Login" classname="com.eDocs.SanityTesting.UniversalSettings" time="7.781"/>
-  <testcase name="ResidueLimitSAVE" classname="com.eDocs.SanityTesting.UniversalSettings" time="18.915"/>
-  <testcase name="GeneralSettings" classname="com.eDocs.SanityTesting.UniversalSettings" time="9.334"/>
-  <testcase name="SiteMap" classname="com.eDocs.SanityTesting.UniversalSettings" time="8.158">
-    <failure message="Unable to locate element: .//*[@id=&apos;optionDetails&apos;]/div/div/div/div[1]/span/span[1]/span/span[2]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;EZS013&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_05&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10640, moz:profile: C:\Users\Easy solutions\App..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: b5a27f93-df95-49a9-a8b7-6bebad602096&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;optionDetails&apos;]/div/div/div/div[1]/span/span[1]/span/span[2]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id='optionDetails']/div/div/div/div[1]/span/span[1]/span/span[2]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'EZS013', ip: '192.168.1.45', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_05'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10640, moz:profile: C:\Users\Easy solutions\App..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: b5a27f93-df95-49a9-a8b7-6bebad602096
-*** Element info: {Using=xpath, value=.//*[@id='optionDetails']/div/div/div/div[1]/span/span[1]/span/span[2]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at com.eDocs.SanityTesting.UniversalSettings.SiteMap(UniversalSettings.java:303)
-</failure>
-    <system-out><![CDATA[getSelectedImageOption: Select Option
-]]></system-out>
-    <system-err><![CDATA[1534917436416	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.1.111:8090/general-preferences"
-1534917436465	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.1.111:8090/general-preferences"
-1534917436467	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.1.111:8090/general-preferences"
-JavaScript error: http://192.168.1.111:8090/site-map, line 60: ReferenceError: eResidue is not defined
-1534917437215	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450957"
-JavaScript error: http://192.168.1.111:8090/site-map, line 410: ReferenceError: eResidue is not defined
-1534917437279	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.1.111:8090/site-map"
-1534917437282	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.1.111:8090/site-map"
-]]></system-err>
-  </testcase>
-  <testcase name="SampleLocation" classname="com.eDocs.SanityTesting.UniversalSettings" time="2.304">
-    <failure message="Unable to locate element: #samplingType&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;EZS013&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_05&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10640, moz:profile: C:\Users\Easy solutions\App..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: b5a27f93-df95-49a9-a8b7-6bebad602096&#10;*** Element info: {Using=id, value=samplingType}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: #samplingType
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'EZS013', ip: '192.168.1.45', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_05'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10640, moz:profile: C:\Users\Easy solutions\App..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: b5a27f93-df95-49a9-a8b7-6bebad602096
-*** Element info: {Using=id, value=samplingType}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at com.eDocs.SanityTesting.UniversalSettings.SampleLocation(UniversalSettings.java:403)
-</failure>
-    <system-out><![CDATA[Test class name ...UniversalSettings
-Test method name ...SiteMap
-Image path....file://D:\Maven CV Docs\CVeDocsMaven\screenshots\LatestResults\UniversalSettings\SiteMap.png
-]]></system-out>
-    <system-err><![CDATA[1534917445652	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.1.111:8090/site-map"
-1534917445683	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.1.111:8090/site-map"
-1534917445684	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.1.111:8090/site-map"
-1534917445699	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.1.111:8090/sampling-locations"
-1534917445919	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.1.111:8090/sampling-locations"
-]]></system-err>
-  </testcase>
-  <testcase name="productgrouping" classname="com.eDocs.SanityTesting.UniversalSettings" time="2.079">
-    <failure message="Unable to locate element: #groupingCriteria&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;EZS013&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_05&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10640, moz:profile: C:\Users\Easy solutions\App..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: b5a27f93-df95-49a9-a8b7-6bebad602096&#10;*** Element info: {Using=id, value=groupingCriteria}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: #groupingCriteria
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'EZS013', ip: '192.168.1.45', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_05'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10640, moz:profile: C:\Users\Easy solutions\App..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: b5a27f93-df95-49a9-a8b7-6bebad602096
-*** Element info: {Using=id, value=groupingCriteria}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at com.eDocs.SanityTesting.UniversalSettings.productgrouping(UniversalSettings.java:555)
-</failure>
-    <system-out><![CDATA[Test class name ...UniversalSettings
-Test method name ...SampleLocation
-Image path....file://D:\Maven CV Docs\CVeDocsMaven\screenshots\LatestResults\UniversalSettings\SampleLocation.png
-]]></system-out>
-    <system-err><![CDATA[1534917447981	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.1.111:8090/sampling-locations"
-1534917447999	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.1.111:8090/sampling-locations"
-1534917447999	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.1.111:8090/sampling-locations"
-1534917448007	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.1.111:8090/product-grouping"
-1534917448011	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.1.111:8090/product-grouping"
-]]></system-err>
-  </testcase>
-  <testcase name="microbialLimit" classname="com.eDocs.SanityTesting.UniversalSettings" time="2.082">
-    <failure message="Unable to locate element: #limitsSetupOption&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;EZS013&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_05&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10640, moz:profile: C:\Users\Easy solutions\App..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: b5a27f93-df95-49a9-a8b7-6bebad602096&#10;*** Element info: {Using=id, value=limitsSetupOption}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: #limitsSetupOption
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'EZS013', ip: '192.168.1.45', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_05'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10640, moz:profile: C:\Users\Easy solutions\App..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: b5a27f93-df95-49a9-a8b7-6bebad602096
-*** Element info: {Using=id, value=limitsSetupOption}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at com.eDocs.SanityTesting.UniversalSettings.microbialLimit(UniversalSettings.java:621)
-</failure>
-    <system-out><![CDATA[Test class name ...UniversalSettings
-Test method name ...productgrouping
-Image path....file://D:\Maven CV Docs\CVeDocsMaven\screenshots\LatestResults\UniversalSettings\productgrouping.png
-]]></system-out>
-    <system-err><![CDATA[1534917450093	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.1.111:8090/product-grouping"
-1534917450112	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.1.111:8090/product-grouping"
-1534917450112	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.1.111:8090/product-grouping"
-1534917450122	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.1.111:8090/microbial-limit"
-1534917450125	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.1.111:8090/microbial-limit"
-]]></system-err>
-  </testcase>
+  <testcase name="Login" classname="com.eDocs.SanityTesting.UniversalSettings" time="10.247"/>
+  <testcase name="ResidueLimitSAVE" classname="com.eDocs.SanityTesting.UniversalSettings" time="24.527"/>
+  <testcase name="GeneralSettings" classname="com.eDocs.SanityTesting.UniversalSettings" time="9.345"/>
+  <testcase name="SiteMap" classname="com.eDocs.SanityTesting.UniversalSettings" time="8.41"/>
+  <testcase name="SampleLocation" classname="com.eDocs.SanityTesting.UniversalSettings" time="3.372"/>
+  <testcase name="productgrouping" classname="com.eDocs.SanityTesting.UniversalSettings" time="4.362"/>
+  <testcase name="microbialLimit" classname="com.eDocs.SanityTesting.UniversalSettings" time="4.458"/>
 </testsuite>
