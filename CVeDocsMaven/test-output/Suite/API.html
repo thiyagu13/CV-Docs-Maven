@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>TestNG:  API</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>API</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 20 15:13:27 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>94 seconds (94881 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.APISAVE()'><b>APISAVE</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>4</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.NoofCarbonAlphabetsTest()'><b>NoofCarbonAlphabetsTest</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.NoofCarbonMaxLengthTest()'><b>NoofCarbonMaxLengthTest</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.NoofCarbonMultiDecimalTest()'><b>NoofCarbonMultiDecimalTest</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.NoofCarbonSpaceTest()'><b>NoofCarbonSpaceTest</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.NoofCarbonZEROTest()'><b>NoofCarbonZEROTest</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.activeMolarAlphabetsTest()'><b>activeMolarAlphabetsTest</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.activeMolarMaxLengthTest()'><b>activeMolarMaxLengthTest</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.activeMolarMultiDecimalTest()'><b>activeMolarMultiDecimalTest</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.activeMolarSpaceTest()'><b>activeMolarSpaceTest</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.activeMolarZEROTest()'><b>activeMolarZEROTest</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>1</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+<tr>
+<td title='com.eDocs.API.HealthValue.healthValAlphabetsTest()'><b>healthValAlphabetsTest</b><br>Test class: com.eDocs.API.HealthValue</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.HealthValue@30f842ca</td></tr>
+<tr>
+<td title='com.eDocs.API.HealthValue.healthValEmpty()'><b>healthValEmpty</b><br>Test class: com.eDocs.API.HealthValue</td>
+<td></td>
+<td>3</td>
+<td>com.eDocs.API.HealthValue@30f842ca</td></tr>
+<tr>
+<td title='com.eDocs.API.HealthValue.healthValMaxLengthTest()'><b>healthValMaxLengthTest</b><br>Test class: com.eDocs.API.HealthValue</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.HealthValue@30f842ca</td></tr>
+<tr>
+<td title='com.eDocs.API.HealthValue.healthValMultiDecimalTest()'><b>healthValMultiDecimalTest</b><br>Test class: com.eDocs.API.HealthValue</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.HealthValue@30f842ca</td></tr>
+<tr>
+<td title='com.eDocs.API.HealthValue.healthValSpaceTest()'><b>healthValSpaceTest</b><br>Test class: com.eDocs.API.HealthValue</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.HealthValue@30f842ca</td></tr>
+<tr>
+<td title='com.eDocs.API.HealthValue.healthValZEROTest()'><b>healthValZEROTest</b><br>Test class: com.eDocs.API.HealthValue</td>
+<td></td>
+<td>1</td>
+<td>com.eDocs.API.HealthValue@30f842ca</td></tr>
+<tr>
+<td title='com.eDocs.API.APIName.nameBeginingSpaceCheck()'><b>nameBeginingSpaceCheck</b><br>Test class: com.eDocs.API.APIName</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.APIName@dc7df28</td></tr>
+<tr>
+<td title='com.eDocs.API.APIName.nameEmpty()'><b>nameEmpty</b><br>Test class: com.eDocs.API.APIName</td>
+<td></td>
+<td>9</td>
+<td>com.eDocs.API.APIName@dc7df28</td></tr>
+<tr>
+<td title='com.eDocs.API.APIName.nameMaxFieldLength()'><b>nameMaxFieldLength</b><br>Test class: com.eDocs.API.APIName</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.APIName@dc7df28</td></tr>
+<tr>
+<td title='com.eDocs.API.APIName.nameSpecialChar()'><b>nameSpecialChar</b><br>Test class: com.eDocs.API.APIName</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.APIName@dc7df28</td></tr>
+<tr>
+<td title='com.eDocs.API.APIName.productIDMaxLength()'><b>productIDMaxLength</b><br>Test class: com.eDocs.API.APIName</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.APIName@dc7df28</td></tr>
+<tr>
+<td title='com.eDocs.API.APIName.routeofAdminCREATEMaxLength()'><b>routeofAdminCREATEMaxLength</b><br>Test class: com.eDocs.API.APIName</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.APIName@dc7df28</td></tr>
+<tr>
+<td title='com.eDocs.API.APIName.routeofAdminCREATESuccess()'><b>routeofAdminCREATESuccess</b><br>Test class: com.eDocs.API.APIName</td>
+<td></td>
+<td>4</td>
+<td>com.eDocs.API.APIName@dc7df28</td></tr>
+<tr>
+<td title='com.eDocs.API.APIName.routeofAdminCREATEmpty()'><b>routeofAdminCREATEmpty</b><br>Test class: com.eDocs.API.APIName</td>
+<td></td>
+<td>5</td>
+<td>com.eDocs.API.APIName@dc7df28</td></tr>
+<tr>
+<td title='com.eDocs.API.APIName.routeofAdminDeleteSuccess()'><b>routeofAdminDeleteSuccess</b><br>Test class: com.eDocs.API.APIName</td>
+<td></td>
+<td>5</td>
+<td>com.eDocs.API.APIName@dc7df28</td></tr>
+<tr>
+<td title='com.eDocs.API.APIName.routeofAdminDuplicate()'><b>routeofAdminDuplicate</b><br>Test class: com.eDocs.API.APIName</td>
+<td></td>
+<td>4</td>
+<td>com.eDocs.API.APIName@dc7df28</td></tr>
+<tr>
+<td title='com.eDocs.API.APIName.routeofAdminEmpty()'><b>routeofAdminEmpty</b><br>Test class: com.eDocs.API.APIName</td>
+<td></td>
+<td>4</td>
+<td>com.eDocs.API.APIName@dc7df28</td></tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.solubilityWaterAlphabetsTest()'><b>solubilityWaterAlphabetsTest</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.solubilityWaterMaxLengthTest()'><b>solubilityWaterMaxLengthTest</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.solubilityWaterMultiDecimalTest()'><b>solubilityWaterMultiDecimalTest</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.solubilityWaterSpaceTest()'><b>solubilityWaterSpaceTest</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+<tr>
+<td title='com.eDocs.API.NonMandatoryFields.solubilityWaterZEROTest()'><b>solubilityWaterZEROTest</b><br>Test class: com.eDocs.API.NonMandatoryFields</td>
+<td></td>
+<td>2</td>
+<td>com.eDocs.API.NonMandatoryFields@69c81773</td></tr>
+</table><p>
+</body>
+</html>

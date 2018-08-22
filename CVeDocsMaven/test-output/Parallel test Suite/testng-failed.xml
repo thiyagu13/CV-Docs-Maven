@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel test Suite]" parallel="tests">
+  <test name="Firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.eDocs.AccessSettings.UserGroup">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="groupName"/>
+        </methods>
+      </class> <!-- com.eDocs.AccessSettings.UserGroup -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Parallel test Suite] -->

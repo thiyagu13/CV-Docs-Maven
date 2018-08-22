@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.eDocs.result.LocalScreenshot"/>
+    <listener class-name="com.eDocs.result.CustomizedEmailableReport"/>
+  </listeners>
+  <test name="Universal Settings(failed)">
+    <classes>
+      <class name="com.eDocs.SanityTesting.UniversalSettings">
+        <methods>
+          <include name="GeneralSettings"/>
+          <include name="setUp"/>
+          <include name="ResidueLimitSAVE"/>
+          <include name="SampleLocation"/>
+          <include name="productgrouping"/>
+          <include name="SiteMap"/>
+          <include name="microbialLimit"/>
+        </methods>
+      </class> <!-- com.eDocs.SanityTesting.UniversalSettings -->
+    </classes>
+  </test> <!-- Universal Settings(failed) -->
+</suite> <!-- Failed suite [Suite] -->

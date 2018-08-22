@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (2)]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.eDocs.EquipmentTrain.EquipmentTrainSelectEquipment">
+        <methods>
+          <include name="trainSaveandNOChangeControl"/>
+          <include name="uploadImageEmpty"/>
+          <include name="locationNameEmpty"/>
+          <include name="locationNameMaxLength"/>
+          <include name="rationaleMaxLength"/>
+          <include name="locationPinEmpty"/>
+        </methods>
+      </class> <!-- com.eDocs.EquipmentTrain.EquipmentTrainSelectEquipment -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (2)] -->

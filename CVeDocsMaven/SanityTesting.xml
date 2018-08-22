@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+
+	<listeners>
+		<listener class-name='com.eDocs.result.LocalScreenshot' />
+		<listener class-name='com.eDocs.result.CustomizedEmailableReport' />
+	</listeners> 
+	
+  <test name="Smoke Testing">
+    <classes>
+    	  <class name="com.eDocs.SanityTesting.UniversalSettings"/>  
+    	 
+          <class name="com.eDocs.SanityTesting.DMS">  
+    		<methods>
+    		 	 <exclude name="Login" />	
+       			 <include name="CreateDMSforValidationDocument" />
+       			 <include name="CreateDMSforSOP" />
+       			 <include name="DeleteDMS" />
+      		</methods>
+      	  </class>
+      	   <class name="com.eDocs.SanityTesting.Utility">  
+    		<methods>
+       			 <include name="CreateUtility" />
+       			 <include name="EditUtility" />
+       			 <include name="SingleDeleteUser" />
+       			 <exclude name="ExportUtility" />
+       			 <include name="MultiDeleteUtility" />
+       			 <include name="CreateUtilityforEquip" />
+      		</methods>
+      	  </class>   
+          <class name="com.eDocs.SanityTesting.Equipment">
+         	<methods>
+       			 <exclude name="Login" />		 
+       			 <include name="CreateEquipmentwithRiskAssessment" />
+       			 <include name="EditEquipmentwithRiskAssessment" />
+       			 <include name="DeleteEquipmentRiskAssessment" />
+       			 <include name="CreateEquipmentwithSamplingSiteType" />
+       			 <include name="EditEquipmentwithSamplingSiteType" />
+       			 <exclude name="SingleDeleteEquipmentSamplingSiteType" />
+       		 	 <include name="MultiDeleteEquipment" />
+       		     <include name="CreateEquipmentforCreatingGroup" />
+       			 <include name="CopyEquipment" />
+      		</methods> 
+         </class> 
+          <class name="com.eDocs.SanityTesting.EquipmentGroup">
+          <methods>
+       			 <include name="CreateEquipmentGroup" />
+       			 <include name="EditEquipmentGroup" />
+       			 <include name="SingleDeleteEquipmentGroup" />
+       			 <include name="MultiDeleteEquipmentGroup" />
+      		</methods> 
+         </class>
+         
+        <class name="com.eDocs.SanityTesting.EquipmentTrain">  
+         <methods>
+       			 <include name="CreateEquipmentTrain" />
+       			 <include name="EditEquipmentTrain" />
+       			 <include name="SingleDeleteEquipmentTrain" />
+       			 <include name="MultiDeleteEquipmentTrain" />
+      		</methods> 
+         </class>
+             
+     	  <class name="com.eDocs.SanityTesting.API"> 
+     	  	 <methods>
+       		 <include name="CreateAPI" />
+       		 <include name="EditAPI" />
+       		 <include name="SingleDeleteAPI" />
+       		 <include name="MultiDeleteAPI" />
+       		 <include name="CreateAPIforProduct" />
+      		</methods> 
+      	  </class> 
+       	  <class name="com.eDocs.SanityTesting.Product">  
+       		 <methods>
+       		 <exclude name="Login" />		 
+       		 <include name="CreateProductSOLID" />
+       		 <exclude name="EditProductSOLID" />
+       		 <include name="CreateProductLIQUID" />
+       		 <exclude name="EditProductLIQUID" />
+       		 <include name="CreateProductINHALANT" />
+       		 <exclude name="EditProductINHALANT" />
+       		 <include name="CreateProductPATCH" />
+       		 <exclude name="EditProductPATCH" />
+       		 <include name="CreateProductTopical" />
+       		 <exclude name="EditProductTOPICAL" />
+       		 <include name="CreateProductDILUENT" />
+       		 <exclude name="EditProductDILUENT" />
+       		 <include name="CreateProductCLENAINGAGENT" />
+       		 <exclude name="EditProductCLEANINGAGENT" />
+       		 <include name="SingleDeleteProduct" />
+       		 <include name="MultiDeleteProduct" />
+      		</methods> 
+      	</class>    
+    <!--     <class name="com.eDocs.SanityTesting.Usergroup"/>
+            <class name="com.eDocs.SanityTesting.User"/>
+                    <class name="com.eDocs.SanityTesting.ReviewPolicy"/> -->
+                     <!-- <class name="com.eDocs.SanityTesting.SecuritySettings"/> -->
+                     <!-- <class name="com.eDocs.SanityTesting.Utility"/> --> 
+    </classes>
+  </test> <!-- Test -->
+  
+  <!-- <test name="Test">
+  	<parameter name="EmailReport" value="customized-emailable-report.html" /> SendMail: email report to testers
+    <classes>
+      	  <class name="com.eDocs.email.SendMail"/> 
+    </classes>
+  </test> Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name='com.eDocs.result.LocalScreenshot' />
+		<listener class-name='com.eDocs.result.CustomizedEmailableReport' />
+	</listeners>
+
+	 <test name="Universal Settings">
+		<classes>
+			<class name="com.eDocs.SanityTesting.UniversalSettings" />
+		</classes>
+	</test> 
+<!-- 
+  <test name="DMS">
+		<classes>
+			<class name="com.eDocs.DMS.DmsCreate" />
+			<class name="com.eDocs.DMS.DmsDelete" />
+		</classes>
+	</test> 
+	
+	<test name="Utility">
+		<classes>
+			<class name="com.eDocs.Utility.UtilityCreate" />
+			<class name="com.eDocs.Utility.UtilityDelete" />
+		</classes>
+	</test>
+ 
+	 <test name="Equipment">
+		<classes>
+			<class name="com.eDocs.Equipment.EquipmentName" />
+			<class name="com.eDocs.Equipment.EquipmentSurfaceArea" />
+			<class name="com.eDocs.Equipment.EquipmentPrefTransfr" />
+			<class name="com.eDocs.Equipment.EquipmentMinimumBatch" />
+			<class name="com.eDocs.Equipment.EquipmentCleaningProcessType" />
+			<class name="com.eDocs.Equipment.EquipmentNonMandatoryFields" />
+			<class name="com.eDocs.Equipment.EquipmentRiskAssessment" />
+			<class name="com.eDocs.Equipment.EquipmentSamplingInfo" />
+			<class name="com.eDocs.Equipment.EquipmentSegment" />
+			<class name="com.eDocs.Equipment.EquipmentCopy" />
+			<class name="com.eDocs.Equipment.EquipmentDelete" />
+		</classes>
+	</test>  -->
+ 
+	<!--  <test name="Equipment Group">
+		<classes>
+			<class name="com.eDocs.EquipmentGroup.EquipmentGroupName" />
+			<class name="com.eDocs.EquipmentGroup.EquipmentGroupOtherFields" />
+			<class name="com.eDocs.EquipmentGroup.EquipmentGroupDelete" />
+		</classes>
+	</test>  -->
+
+	<!--  <test name="Equipment Train">
+		<classes>
+			<class name="com.eDocs.EquipmentTrain.EquipmentTrainName" />
+			<class name="com.eDocs.EquipmentTrain.EquipmentTrainSelectEquipment" />
+			<class name="com.eDocs.EquipmentTrain.EquipmentTrainDelete" />
+		</classes>
+	</test>  
+ 
+	<test name="API">
+		<classes>
+			<class name="com.eDocs.API.APIName" />
+			<class name="com.eDocs.API.HealthValue" />
+			<class name="com.eDocs.API.NonMandatoryFields" />
+			<class name="com.eDocs.API.APIDelete" />
+		</classes>
+	</test>
+
+   <test name="Solid Product">
+		<classes>
+			<class name="com.eDocs.SolidProduct.ProductName" />
+			<class name="com.eDocs.SolidProduct.ProductDose" />
+			<class name="com.eDocs.SolidProduct.ProductMaxDailyDose" />
+			<class name="com.eDocs.SolidProduct.ProductMaxDose" />
+			<class name="com.eDocs.SolidProduct.ProductMinBatch" />
+			<class name="com.eDocs.SolidProduct.ProductBioBurden" />
+			<class name="com.eDocs.SolidProduct.ProductBasisofCalculation" />
+			<class name="com.eDocs.SolidProduct.ProductWorstCaseRating" />
+			<class name="com.eDocs.SolidProduct.ProductEquipmentSelection" />
+			<class name="com.eDocs.SolidProduct.ProductDelete" />
+		</classes>
+	</test>
+
+	 <test name="Topical Product">
+		<classes>
+			<class name="com.eDocs.TopicalProduct.TopicalName" />
+			<class name="com.eDocs.TopicalProduct.TopicalMaxDailyDose" />
+			<class name="com.eDocs.TopicalProduct.TopicalMaxAmountApplied" />
+			<class name="com.eDocs.TopicalProduct.TopicalMaxBodySFArea" />
+			<class name="com.eDocs.TopicalProduct.TopicalMinBatch" />
+			<class name="com.eDocs.TopicalProduct.TopicalBioBurden" />
+			<class name="com.eDocs.TopicalProduct.TopicalBasisofCalculation" />
+			<class name="com.eDocs.TopicalProduct.TopicalWorstCaseRating" />
+			<class name="com.eDocs.TopicalProduct.TopicalEquipmentSelection" />
+			<class name="com.eDocs.TopicalProduct.TopicalDelete" />
+		</classes>
+	</test> 
+
+	<test name="Patch Product">
+		<classes>
+			<class name="com.eDocs.PatchProduct.PatchName" />
+			<class name="com.eDocs.PatchProduct.PatchMaxDailyDose" />
+			<class name="com.eDocs.PatchProduct.PatchMaxDailyDoseperPatch" />
+			<class name="com.eDocs.PatchProduct.PacthMaxnoofPatchWorn" />
+			<class name="com.eDocs.PatchProduct.PatchMinBatch" />
+			<class name="com.eDocs.PatchProduct.PatchBioBurden" />
+			<class name="com.eDocs.PatchProduct.PatchBasisofCalculation" />
+			<class name="com.eDocs.PatchProduct.PatchWorstCaseRating" />
+			<class name="com.eDocs.PatchProduct.PatchEquipmentSelection" />
+			<class name="com.eDocs.PatchProduct.PatchDelete" />
+		</classes>
+	</test>
+	 
+
+
+
+ -->
+
+
+
+
+
+	<!--Negative Testcases -->
+	<!-- <suite-files> Run multiple xml file in the single xml <suite-file path="Equipment.xml"></suite-file> 
+		<suite-file path="EquipmentGroup.xml"></suite-file> <suite-file path="EquipmentTrain.xml"></suite-file> 
+		</suite-files> -->
+</suite> <!-- Suite -->

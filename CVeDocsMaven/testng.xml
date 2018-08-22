@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name='com.eResidue.result.LocalScreenshot' />
+		<listener class-name='com.eResidue.result.CustomizedEmailableReport' />
+	</listeners>
+
+	<test name="Test">
+	
+		<!-- <parameter name="Test Report" value="Test Suite Report " />   --> <!-- To access class "createFolderwithTimeStamp" and pass value to the parameter  -->
+
+		<!-- <parameter name="Email Report" value="customized-emailable-report.html" /> -->   <!-- Send Customized TestNG Email report to mail id  -->
+		
+		
+		<classes>
+			<class name="com.eResidue.Equipment.ScreenshotInResultsTest" />
+			<!--  <class name="com.eResidue.Equipment.Equipment_Name" /> -->
+			<!--  <class name="com.eResidue.TestSuitebackup.CreateFolderewithTimeStamp"/> -->  <!--  Class to create folder for each execution -->
+    		<!--  <class name="com.eResidue.email.SendMail"/>  --> 	<!--  class to send report to email-->	
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

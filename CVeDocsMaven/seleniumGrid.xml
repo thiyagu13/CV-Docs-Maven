@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+	<test name="Ram Machine">
+		<parameter name="browser" value="chrome" />
+		<parameter name="portNo" value="5566" />
+		<classes>
+			<class name="com.eDocs.SanityTesting.grid" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Thiyagu Machine">
+		<parameter name="browser" value="chrome" />
+		<parameter name="portNo" value="5567" />
+		<classes>
+			<class name="com.eDocs.SanityTesting.grid" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

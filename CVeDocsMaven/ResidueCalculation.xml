@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  
+    <!--Below four  product used for calculation -->
+  <!-- <parameter name = "productName1" value= "P1"/> -->
+  <!-- <parameter name = "productName2" value= "P2"/> -->
+  <!-- <parameter name = "productName3" value= "P3"/> -->
+  <!-- <parameter name = "productName4" value= "P4"/> -->
+  <!-- <parameter name = "productName5" value= "P5"/>  -->
+  
+    <classes>
+    <!--   <class name="com.eDocs.Test.Default"/> --> 
+      <class name="com.eDocs.residueCalculation.ResidueCalculation"/>
+    </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

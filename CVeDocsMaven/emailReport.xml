@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  	<parameter name="EmailReport" value="customized-emailable-report.html" /> <!-- SendMail: email report to testers -->
+    <classes>
+      	  <class name="com.eDocs.email.SendMail"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
